@@ -2,8 +2,8 @@ name: Deploy to Production
  
 on:
   push:
-    branches:
-      - main  # 当推送到main分支时触发
+    branches: 
+      - master  # 当推送到main分支时触发
     paths-ignore: 
       - README.md
  
