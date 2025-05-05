@@ -32,5 +32,7 @@ jobs:
         branch: gh-pages  # 部署到 gh-pages 分支
         publish_dir: ./dist # 部署打包后的dist目录
         github_token: ${{ secrets.CICDDEMO }}
+        folder: dist # 这里填打包好的目录名称
+        commit_message: '自动化部署'
        
         
