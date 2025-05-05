@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <div ref="nameDom">
-            姓名<input type="text" v-model="data.name" />
+            姓名111<input type="text" v-model="data.name" />
             {{ data.name }}
         </div>
         <div>
